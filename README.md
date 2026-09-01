@@ -57,7 +57,7 @@ cooldown) local.
 ## Run
 
 > Depends on `sconixcore` + `sconixapp` from
-> [`sconix-systems`](https://github.com/YusufRM/sconix-systems). `pyproject.toml`
+> [`sconix-systems`](https://github.com/Sconix-AI/sconix-systems). `pyproject.toml`
 > points `[tool.uv.sources]` at a local checkout (`~/systems/os/*`); repoint it or
 > use a git dependency to build elsewhere. `task test` needs neither infra nor an
 > API key; `task demo` runs the whole loop against a fake app.
